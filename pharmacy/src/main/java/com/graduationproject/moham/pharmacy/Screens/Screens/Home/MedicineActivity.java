@@ -1,4 +1,4 @@
-package com.graduationproject.moham.pharmacy.Screens;
+package com.graduationproject.moham.pharmacy.Screens.Screens.Home;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -21,6 +21,8 @@ public class MedicineActivity extends AppCompatActivity {
     ImageView image;
     @BindView(R.id.tvName)
     TextView tvName;
+    @BindView(R.id.tvPrice)
+    TextView tvPrice;
     @BindView(R.id.tvDescription)
     TextView tvDescription;
     @BindView(R.id.btnEdit)
@@ -46,6 +48,7 @@ public class MedicineActivity extends AppCompatActivity {
             medicine = getIntent().getParcelableExtra("medicine");
 
             tvName.setText(medicine.getName());
+            tvPrice.setText(medicine.getPrice());
             tvDescription.setText(medicine.getDescription());
 
             Picasso.with(this)

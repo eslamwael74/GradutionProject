@@ -1,7 +1,8 @@
-package com.graduationproject.moham.pharmacy.Screens;
+package com.graduationproject.moham.pharmacy.Screens.Screens.Home;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.annotation.IdRes;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -15,7 +16,6 @@ import com.graduationproject.moham.pharmacy.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

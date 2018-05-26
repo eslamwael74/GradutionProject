@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">pharmacy</string>
+    <string name="tab_1">Home</string>
+    <string name="tab_2">Orders</string>
+    <string name="tab_3">More</string>
+    <string name="please_press_back_again_to_close">Back again to exit App!!</string>
+    <string name="medicines">Medicines</string>
+    <string name="suggest">Suggest</string>
+    <string name="accept">Accept</string>
+    <string name="suggest_medicine">Suggest Medicine</string>
+    <string name="orders">Orders</string>
 </resources>

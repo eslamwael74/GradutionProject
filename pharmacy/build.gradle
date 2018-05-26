@@ -46,4 +46,7 @@ dependencies {
     //CircleImageView
     implementation 'de.hdodenhof:circleimageview:2.2.0'
 
+    //---------------------BottomNavigationBar----------------------//
+    implementation 'com.aurelhubert:ahbottomnavigation:2.0.4'
+
 }
